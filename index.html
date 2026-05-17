@@ -177,6 +177,27 @@ body {
 
 /* ── PAGE END PAD ── */
 .page-end { height: 32px; }
+@media (min-width: 768px) {
+  .topbar { padding: 16px 40px; }
+  .hero-photo { height: 300px; }
+  .sol-list { padding: 0 40px 40px; }
+  .section-label { padding: 24px 40px 16px; }
+}
+
+@media (min-width: 1100px) {
+  .topbar { padding: 16px 80px; }
+  .hero-photo { height: 380px; }
+  .hero-caption { font-size: 2rem; max-width: 500px; }
+  .sol-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 80px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-label { padding: 28px 80px 20px; }
+}
 </style>
 </head>
 <body>
